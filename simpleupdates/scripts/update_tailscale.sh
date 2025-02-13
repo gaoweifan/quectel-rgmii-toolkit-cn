@@ -2,14 +2,14 @@
 
 # Define constants
 # Define GitHub repo info
-GITUSER="iamromulan"
-REPONAME="quectel-rgmii-toolkit"
+GITUSER="gaoweifan"
+REPONAME="quectel-rgmii-toolkit-cn"
 GITTREE="SDXLEMUR"
 GITMAINTREE="SDXLEMUR"
-GITDEVTREE="development-SDXLEMUR"
-GITROOT="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITTREE"
-GITROOTMAIN="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITMAINTREE"
-GITROOTDEV="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITDEVTREE"
+GITDEVTREE="dev-SDXLEMUR-cn"
+GITROOT="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITTREE"
+GITROOTMAIN="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITMAINTREE"
+GITROOTDEV="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITDEVTREE"
 # Define filesystem path
 DIR_NAME="tailscale"
 SERVICE_FILE="/lib/systemd/system/install_tailscale.service"
@@ -57,14 +57,14 @@ cat <<EOF > "$TMP_SCRIPT"
 export HOME=/usrdata/root
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/opt/bin:/opt/sbin:/usrdata/root/bin
 # Define GitHub repo info
-GITUSER="iamromulan"
-REPONAME="quectel-rgmii-toolkit"
+GITUSER="gaoweifan"
+REPONAME="quectel-rgmii-toolkit-cn"
 GITTREE="SDXLEMUR"
 GITMAINTREE="SDXLEMUR"
-GITDEVTREE="development-SDXLEMUR"
-GITROOT="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITTREE"
-GITROOTMAIN="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITMAINTREE"
-GITROOTDEV="https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITDEVTREE"
+GITDEVTREE="dev-SDXLEMUR-cn"
+GITROOT="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITTREE"
+GITROOTMAIN="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITMAINTREE"
+GITROOTDEV="https://gh-proxy.com/https://raw.githubusercontent.com/$GITUSER/$REPONAME/$GITDEVTREE"
 # Define filesystem path
 TAILSCALE_DIR="/usrdata/tailscale/"
 TAILSCALE_SYSD_DIR="/usrdata/tailscale/systemd"
