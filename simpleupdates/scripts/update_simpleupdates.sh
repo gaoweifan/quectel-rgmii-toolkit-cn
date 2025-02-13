@@ -3,7 +3,7 @@
 # WORK IN PROGRESS
 
 # Define constants
-GITUSER="iamromulan"
+GITUSER="gaoweifan"
 GITTREE="development"
 DIR_NAME="simpleupdates"
 SERVICE_FILE="/lib/systemd/system/install_simpleupdates.service"
